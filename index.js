@@ -121,7 +121,7 @@ function calculateAllExpressions(mathExpression) {
     calculateOneExpression(mathExpression)
   }
   parentIni = []; //reset array que contiene los indices de los parentesis
-  return parseInt(mathExpression)
+  return parseFloat(mathExpression)
 }
 
 
