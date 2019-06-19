@@ -1,0 +1,178 @@
+html {
+  font-size: 12px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 532px;
+  min-width: 320px;
+}
+.grid {
+  border: 1px grey solid;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template: 1.1fr 1.3fr repeat(5, 1fr) / repeat(4, 1fr);
+  border: 17px solid #0ba4b7;
+}
+.box {
+  background-color: #00bcd44f;
+  color: #000000b3;
+  border: 1px white solid;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.color1 {
+  background-color: #ffeb3b8a;;
+}
+.color1:hover {
+  background-color: #ffeb3b4f;
+}
+.color2:hover {
+  background-color: #00bcd424;
+}
+.color3 {
+  background-color: #ff000070;;
+}
+.color3:hover {
+  background-color: #ff00004d;
+}
+.color1:active,
+.color2:active,
+.color3:active {
+  background-color: white;
+}
+#back-arrow:hover {
+  width: 52px;
+}
+#back-arrow {
+  width: 45px;
+}
+.change-size:hover {
+  font-size: 2.5rem;
+}
+#message {
+  grid-area: 1 / 1 / span 1 / span 4;
+  font-size: 2.5rem;
+  padding: 0.5rem 2rem;
+  background-color: #0ba4b7;
+  color: white;
+  border-bottom: 13px solid #0ba4b7;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+#display {
+  grid-area: 2 / 1 / span 1 / span 4;
+  font-size: 2.5rem;
+  justify-content: flex-end;
+  padding: 0.5rem 2rem;
+  color: #000000b3;
+  background-color: white;
+  box-sizing: border-box;
+  border-bottom: 13px solid #0ba4b7;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+#keyAC {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+#keyBack {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+#keyDiv {
+  grid-area: 4 / 4 / span 1 / span 1;
+}
+#key7 {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+#key8 {
+  grid-area: 4 / 2 / span 1 / span 1;
+}
+#key9 {
+  grid-area: 4 / 3 / span 1 / span 1;
+}
+#keyMult {
+  grid-area: 5 / 4 / span 1 / span 1;
+}
+#key4 {
+  grid-area: 5 / 1 / span 1 / span 1;
+}
+#key5 {
+  grid-area: 5 / 2 / span 1 / span 1;
+}
+#key6 {
+  grid-area: 5 / 3 / span 1 / span 1;
+}
+#keySubt{
+  grid-area: 6 / 4 / span 1 / span 1;
+}
+#key1 {
+  grid-area: 6 / 1 / span 1 / span 1;
+}
+#key2 {
+  grid-area: 6 / 2 / span 1 / span 1;
+}
+#key3 {
+  grid-area: 6 / 3 / span 1 / span 1;
+}
+#keyAdd {
+  grid-area: 7 / 4 / span 1 / span 1;
+}
+#key0 {
+  grid-area: 7 / 1 / span 1 / span 1;
+}
+#keyLeftParenth {
+  grid-area: 7 / 2 / span 1 / span 1;
+}
+#keyDot {
+  grid-area: 7 / 2 / span 1 / span 1;
+}
+#keyEqual {
+  grid-area: 7 / 3 / span 1 / span 1
+}
+#keyLeftParenth {
+  grid-area: 3 / 3 / span 1 / span 1;
+}
+#keyRightParenth {
+  grid-area: 3 / 4 / span 1 / span 1;
+}
+
+@media screen and (min-device-width : 375px) and (min-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+  .section1 {
+    height: 600px;
+  }
+  .grid {
+    width: 400px;
+    height: 420px;
+  }
+}
+@media screen and (min-device-width : 420px) and (min-width: 420px) {
+  html {
+    font-size: 16px;
+  }
+  .section1 {
+    height: 620px
+  }
+  .grid {
+    width: 400px;
+    height: 420px;
+  }
+}
+@media screen and (min-device-width : 600px) and (min-width: 600px) {
+  .section1 {
+    height: 850px
+  }
+  .grid {
+    width: 400px;
+    height: 500px;
+  }
+}
