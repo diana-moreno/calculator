@@ -29,7 +29,6 @@ html {
 .color1 {
   background-color: #ffeb3b8a;;
 }
-
 .color3 {
   background-color: #ff000070;;
 }
@@ -40,6 +39,11 @@ html {
 }
 #back-arrow {
   width: 45px;
+}
+.color1:hover,
+.color2:hover,
+.color3:hover {
+  cursor: pointer;
 }
 #message {
   grid-area: 1 / 1 / span 1 / span 4;
