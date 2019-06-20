@@ -161,6 +161,9 @@ html {
     width: 400px;
     height: 500px;
   }
+}
+
+@media screen and (min-width: 300px) {
   .color1:hover {
     background-color: #ffeb3b4f;
   }
