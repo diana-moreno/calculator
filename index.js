@@ -145,7 +145,11 @@ function calculate(mathOperation) {
 
 // muestra la operación matemática por pantalla
 function addKeyPressedToDisplay(event) {
-  display.innerHTML += event.target.innerHTML
+  if(event.target.innerHTML === "=") {
+    message.innerHTML = "CALCULATOR";
+  } else {
+    display.innerHTML += event.target.innerHTML
+  }
 }
 
 // si tiene decimales, muestra max 10, sino no muestra ninguno
@@ -179,6 +183,17 @@ function undo() {
   }
 }
 
+//Si la expresión empieza por un signo, ya sea suma o resta, añadirá el signo al número correlativo, afectando así a su valor.
+function ifStartsBySign(onlyNumbersArray) {
+  for(let i in onlyNumbersArray) {
+    if(onlyNumbersArray[i] === "") {
+      let index = onlyNumbersArray.indexOf(onlyNumbersArray[i])
+      let result = onlyNumbersArray[index + 1].concat((onlyNumbersArray[index + 2]))
+      onlyNumbersArray.splice(index, 3, result)
+    }
+  }
+}
+
 //prepara la expresión introducida por el usuario para ser trabajada, haciendo que cada elemento, sea un elemento de un mismo array y no un simple string
 function getMathExpression() {
   let onlyNumbersArray = (
@@ -191,6 +206,7 @@ function getMathExpression() {
       .split("(").join("( ")
       .split(")").join(" )")
       ).split(" ")
+  ifStartsBySign(onlyNumbersArray)
   return onlyNumbersArray
 }
 
@@ -198,12 +214,14 @@ function getMathExpression() {
 function runCalculator(key, event) {
   message.innerHTML = "Typing..." //mensaje que se muestra mientras opera
   addKeyPressedToDisplay(event) //muestra por pantalla la operación a realizar
-  keyEqual.onclick = function() { //al clicar la tecla "="
-    if(display.innerHTML.length < "15") { //si hay menos de 15 caracteres
-      display.style.fontSize = "2.5rem"; //asegura el tamaño de la letra
+  if(display.innerHTML.length > 0) { //si hay algo en la pantalla
+    keyEqual.onclick = function() { //al clicar la tecla "="
+      if(display.innerHTML.length < "15") { //si hay menos de 15 caracteres
+        display.style.fontSize = "2.5rem"; //asegura el tamaño de la letra
+      }
+      let mathExpression = getMathExpression()
+      calculate(mathExpression)
     }
-    let mathExpression = getMathExpression()
-    calculate(mathExpression)
   }
 }
 
@@ -387,8 +405,6 @@ addEventListener("keyup", function(event) {
 });
 
 
-
-
 // ------------------------------------------------------------------
 
 //Muestra por pantalla qué tecla se está pulsando a cada momento
@@ -405,20 +421,6 @@ function onKeyDownHandler(event) {
 }
 
 // <!--<input onkeydown="onKeyDownHandler(event);"/>-->
-*/
-
-
-/*Ejemplo de keydown y de keyup
-addEventListener("keydown", function(event) {
-    if(event.keyCode == 49)
-    displayKeyboardNumbers(num1)
-  });
-
-
-addEventListener("keyup", function(event) {
-  if (event.keyCode == 86)
-    document.body.style.background = "";
-});
 */
 
 
