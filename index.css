@@ -29,31 +29,17 @@ html {
 .color1 {
   background-color: #ffeb3b8a;;
 }
-.color1:hover {
-  background-color: #ffeb3b4f;
-}
-.color2:hover {
-  background-color: #00bcd424;
-}
+
 .color3 {
   background-color: #ff000070;;
-}
-.color3:hover {
-  background-color: #ff00004d;
 }
 .color1:active,
 .color2:active,
 .color3:active {
   background-color: white;
 }
-#back-arrow:hover {
-  width: 52px;
-}
 #back-arrow {
   width: 45px;
-}
-.change-size:hover {
-  font-size: 2.5rem;
 }
 #message {
   grid-area: 1 / 1 / span 1 / span 4;
@@ -174,5 +160,25 @@ html {
   .grid {
     width: 400px;
     height: 500px;
+  }
+  .color1:hover {
+    background-color: #ffeb3b4f;
+  }
+  .color2:hover {
+    background-color: #00bcd424;
+  }
+  .color3:hover {
+    background-color: #ff00004d;
+  }
+  #back-arrow:hover {
+    width: 52px;
+  }
+  .change-size:hover {
+    font-size: 2.5rem;
+  }
+  .color1:active,
+  .color2:active,
+  .color3:active {
+    background-color: white;
   }
 }
