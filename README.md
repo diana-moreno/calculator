@@ -1,4 +1,4 @@
-# CALCULATOR
+## [CALCULATOR](https://diana-moreno.github.io/calculator/)
 
 In this project I made a functional calculator.<br>The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.
 
