@@ -1,7 +1,6 @@
 ## [CALCULATOR](https://diana-moreno.github.io/calculator/)
 
-![calculator preview](./img/calculator.png)
-Format: ![Alt Text](https://diana-moreno.github.io/calculator/)
+<img src="./img/calculator.png" width="200">
 
 In this project I made a functional calculator.<br>The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.
 
