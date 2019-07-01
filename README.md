@@ -12,3 +12,11 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 - It has been configurated for many sizes of screen and dispositives.
 - Has intuitive colors when operating to be more easily to use
 - Works properly both with keyboard and mouse.
+
+**What I learned:**
+
+- Create a visual interface with CSS Grid Layout.
+- Access and manipulate the DOM.
+- Apply keyboard and mouse events.
+- How to implement hover and active to change style.
+- Develop math logic with Javascript.
