@@ -13,7 +13,7 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 - If the expression is malformed, shows a message.
 - If the expression is too long, the font size is reduced to fit in display.
 - It has been configurated for many sizes of screen and dispositives.
-- Has intuitive colors when operating to be more easily to use
+- Has intuitive colors when operating to be more easily to use.
 - Works properly both with keyboard and mouse.
 
 **Setup**
@@ -21,7 +21,7 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 If you’d like to view my project in your browser:
 
 - Clone the repository in your computer, you can type the following command in your terminal
-```
+```bash
 git clone https://github.com/diana-moreno/calculator.git
 ```
 - Open calculator's folder.
