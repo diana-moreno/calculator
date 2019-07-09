@@ -22,7 +22,7 @@ If you’d like to view my project in your browser:
 
 - Clone the repository in your computer, you can type the following command in your terminal
 ```
-git clone https://github.com/diana-moreno/calculator
+git clone https://github.com/diana-moreno/calculator.git
 ```
 - Open calculator's folder.
 - Open index.html
