@@ -20,8 +20,11 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 
 If you’d like to view my project in your browser:
 
-- git clone https://github.com/diana-moreno/calculator in your terminal
-- cd lab-css-recipies-clone
+- Clone the repository in your computer, you can type the following command in your terminal
+```
+git clone https://github.com/diana-moreno/calculator
+```
+- Open calculator's folder.
 - Open index.html
 
 **What I learned**
