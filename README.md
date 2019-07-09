@@ -4,7 +4,8 @@
 
 In this project I made a functional calculator.<br>The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.
 
-**Features:**
+**Features**
+
 - Allows to operate with nested parentheses expressions.
 - There's a button to delete the last character introduced.
 - Includes reset button to start new calculations.
@@ -15,7 +16,15 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 - Has intuitive colors when operating to be more easily to use
 - Works properly both with keyboard and mouse.
 
-**What I learned:**
+**Setup**
+
+If you’d like to view my project in your browser:
+
+- git clone https://github.com/diana-moreno/calculator in your terminal
+- cd lab-css-recipies-clone
+- Open index.html
+
+**What I learned**
 
 - Create a visual interface with CSS Grid Layout.
 - Access and manipulate the DOM.
