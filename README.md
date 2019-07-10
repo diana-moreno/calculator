@@ -1,11 +1,13 @@
-## [CALCULATOR](https://diana-moreno.github.io/calculator/)
+## CALCULATOR
 
-<img src="./img/calculator.png" width="200">
+<p align="left">
+  <img src="./img/calculator.png" width="200">
+</p>
 
 In this project I made a functional calculator.<br>The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.
 
-**Features**
-
+### **Features**
+---
 - Allows to operate with nested parentheses expressions.
 - There's a button to delete the last character introduced.
 - Includes reset button to start new calculations.
@@ -16,8 +18,8 @@ In this project I made a functional calculator.<br>The purpose was to practice w
 - Has intuitive colors when operating to be more easily to use.
 - Works properly both with keyboard and mouse.
 
-**Setup**
-
+### **Setup**
+---
 If you’d like to view my project in your browser:
 
 - Clone the repository in your computer, you can type the following command in your terminal
@@ -26,9 +28,10 @@ git clone https://github.com/diana-moreno/calculator.git
 ```
 - Open calculator's folder.
 - Open index.html
+- Otherside, you can run the project here: https://diana-moreno.github.io/calculator/
 
-**What I learned**
-
+### **What I learned**
+---
 - Create a visual interface with CSS Grid Layout.
 - Access and manipulate the DOM.
 - Apply keyboard and mouse events.
