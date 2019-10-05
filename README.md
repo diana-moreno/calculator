@@ -4,7 +4,7 @@
   <img src="./img/calculator.png" width="200">
 </p>
 
-This is the second version of calculator. I have focused in add aditional functionality like parenthesis and calculate all mathematical operations.
+This is the second version of calculator. I have focused in add additional functionality like parenthesis and calculate all mathematical operations.
 
 ### **Features**
 ---
