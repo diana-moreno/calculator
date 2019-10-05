@@ -1,10 +1,10 @@
 ## CALCULATOR
 
-<p align="left">
+<p align="center">
   <img src="./img/calculator.png" width="200">
 </p>
 
-In this project I made a functional calculator.<br>The purpose was to practice with the mix of CSS, HTML, logic Javascript and mouse and keyboard events.
+This is the second version of calculator. I have focused in add aditional functionality like parenthesis and calculate all mathematical operations.
 
 ### **Features**
 ---
